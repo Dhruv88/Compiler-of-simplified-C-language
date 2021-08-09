@@ -1,0 +1,47 @@
+
+#define IF if(a>1) b=1; else c=1;
+
+__global__ int VoidADD(int a, float b)
+{
+	if(a == b)
+		return 1;
+	return 0;
+}
+
+struct k
+{
+	int c;
+	float l[5];
+}
+
+float c=5;
+
+//Comment
+
+void kad();
+
+/* Comment
+*/
+
+int main()
+{
+	int a;
+	float c = (unsigned long long int)5;
+        for(int i=0,j=0;i<n;i++)
+	{
+		long long int k;
+		i++;
+	}
+	switch(a)
+	{
+		case 'a': printf("1");
+			break;
+		case 'b': printf("2");
+			break;
+		default: printf("3");
+	}
+	printf("as%csf", 'c', b);
+	a=VoidADD<<<3535,4544>>>(5, 9.4646);
+	return 0;
+
+}

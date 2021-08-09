@@ -1,0 +1,22 @@
+/*
+Example Program
+*/
+
+#include<stdio.h>
+#define t x;
+
+__global__ void vecAdd(int a, float c){
+	/* kernel definition*/
+} 
+
+// Driver program
+int main(){
+	const int a = 5*2;
+	float c = (float)a;
+	double k = 3.04e-3;
+	char c = '\0';
+	vecAdd<<<12,1034>>>(a,c); //kernel invocation
+	for(int i =0 ;i<a;i++)
+		printf("\"Hello World!\"");
+	return 0; 
+}
